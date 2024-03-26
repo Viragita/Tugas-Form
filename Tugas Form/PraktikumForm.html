@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="styleForm.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Login Form</h2>
+        </div>
+        <form action="Webpage.html" method="post">
+            <div class="form-group">
+                <label for="nama">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="content">
+                <div class="content">
+                    <input type="checkbox" id="remind">
+                    Remember me
+                </div>
+                <div class="content2">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+            <button type="submit">Login</button>
+            <div class="sign-up"><br>
+                Don't have an account?
+                <a href="NextForm.html">Register Now</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

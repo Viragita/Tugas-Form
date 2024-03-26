@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*Untuk mengimpor jenis font dari Google Fonts*/
+body { 
+    font-family:'Poppins', Arial, sans-serif; /* Untuk mengatur jenis font*/
+    padding-top: 50px; /* Untuk mengatur jarak bagian atas form*/
+    background-image: url("File/Stars\ Train\ GIF\ -\ Stars\ Train\ Pixel\ Art\ -\ Discover\ &\ Share\ GIFs.gif"); /*Untuk menambahkan background*/
+    background-size: 100% 145%; /*Untuk mengatur ukuran background*/
+    background-repeat: no-repeat; /*Untuk mengatur perulangan background */
+} 
+
+.container {
+    max-width: 288px; /*Untuk mengatur lebar maksimum kotak form*/
+    margin: 30px auto; /*Untuk mengatur panjang background*/
+    padding: 25px; /*Untuk mengatur jarak content dengan kotak form*/
+    backdrop-filter: blur(10px); /*Untuk menerapkan efek grafis blur pada kotak form*/
+    border-radius: 9px;/*Untuk membuat sudut kotak form menjadi melengkung*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*Untuk menambahkan bayangan pada kotak form*/
+}
+
+h2 {
+    width: 100%; /*Untuk mengatur lebar isi*/
+    height: 35px; /*Untuk mengatur tinggi*/
+    font-size: 25px; /*Untuk mengatur ukuran teks*/
+    text-align: center; /*Untuk mengatur posisi teks*/
+    color: #ffffff; /*Untuk mengatur warna teks*/
+    font-weight: bold; /*Untuk mengatur ketebalan teks*/
+}
+
+.form-group {
+    margin-bottom: 15px; /*Untuk memberikan jarak di bagian bawah content*/
+    color: #c8d6e5; /*Untuk mengatur warna teks*/
+}
+
+label { 
+    display: block; /*Untuk mengubah label menjadi blok, sehingga menempati baris baru*/
+    font-weight: bold; /*Untuk mengatur ketebalan teks*/
+}
+
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%; /*Untuk mengatur lebar input atau textarea*/
+    padding: 10px; /*Untuk memberikan jarak teks dengan textarea*/
+    border: 1px solid #ccc; /*Untuk mengatur border dan ketebalan tertentu*/
+    border-radius: 5px; /*Untuk memberikan sudut melengkung pada input*/
+    box-sizing: border-box; /*Untuk memperhitungkan border dan padding dalam perhititungan lebarq*/
+}
+
+.content {
+    display: flex; /*Untuk mengatur tata letak content*/
+    width: 100%; /*Untuk mengatur lebar teks*/
+    padding-bottom: 5px; /*Untuk mengatur jarak antar content dibagian bawah*/
+    font-size: 15px; /*Untuk mengatur ukuran teks*/
+    color: #c8d6e5; /*Untuk mengatur warna teks*/
+    align-items: center; /*Untuk mengatur posisi content*/
+    font-family: 'Poppins', sans-serif; /*Untuk mengatur jenis font*/
+}
+
+.content2{
+    width: 100%; /*Untuk mengatur lebar teks*/
+    padding-left: 23px; /*Untuk mengatur jarak teks*/
+    padding-bottom: 5px; /*Untuk mengatur jarak antar content dibagian bawah*/
+    font-size: 15px; /*Untuk mengatur ukuran teks*/
+    font-family: 'Poppins', sans-serif; /*Untuk mengatur jenis font*/
+}
+
+.content2 a {
+    color: #130f40; /*Untuk memberi warna pada text*/
+    text-decoration: none; /*Untuk meemberikan efek pada teks*/
+}
+
+button {
+    width: 100%; /*Untuk mengatur lebar button*/
+    height: 45px; /*Untuk mengatur tinggi button*/
+    font-size: 20px; /*Untuk mengatur ukuran teks*/
+    background-color: #3498db; /*Untuk memberi warna pada button*/
+    color: #fff; /*Untuk memberi warna teks*/
+    font-weight: bold; /*Untuk meberikan efek tebal pada teks button*/
+    border: none; /*Untuk memberikan efek button*/
+    border-radius: 5px; /*Untuk membuat sudut kotak login menjadi melengkung*/
+    cursor: progress; /*Untuk memberikan efek ketika loading*/
+    font-family: 'Poppins', Arial, sans-serif; /*Untuk mengatur jenis font*/
+}
+
+button:hover {
+    background-color: #130f40; /*Untuk mengatur warna tombol, ketika kursor diarahkan ke tombol*/
+}
+
+.sign-up {
+    width: 100%; /*Untuk mengatur lebar teks*/
+    font-family: 'Poppins', sans-serif; /*Untuk mengatur jenis font*/
+    font-size: 15px; /*Untuk mengatur ukuran teks*/
+    color: #c8d6e5; /*Untuk mengatur warna teks*/
+    text-align: center; /*Untuk mengatur posisi teks*/
+}
+
+.sign-up a {
+    color: #130f40; /*Untuk memberi warna pada text*/
+    text-decoration: none; /*Untuk memberikan efek pada teks*/
+}
